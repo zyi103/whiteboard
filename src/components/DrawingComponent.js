@@ -6,7 +6,7 @@ import '@tldraw/tldraw/tldraw.css';
 function DrawingComponent() {
     return (
         <div style={{ width: '100vw', height: '100vh' }}>
-            <Tldraw />
+            <Tldraw persistenceKey="my-persistence-key" />
         </div>
     );
 }
